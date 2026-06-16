@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-06-16T14:45:34.276447",
+  "file_analyzed": "sample_auth.log",
+  "summary": {
+    "total_failed": 24,
+    "total_successful": 4,
+    "brute_force_ips": 2,
+    "external_successes": 1
+  },
+  "brute_force_ips": {
+    "192.168.1.105": {
+      "count": 6,
+      "severity": "\ud83d\udfe0 HIGH"
+    },
+    "185.220.101.1": {
+      "count": 10,
+      "severity": "\ud83d\udd34 CRITICAL"
+    }
+  },
+  "targeted_users": {
+    "root": 11,
+    "admin": 1,
+    "oracle": 10,
+    "test": 2
+  },
+  "successful_logins": [
+    {
+      "timestamp": "Jan 15 08:25:00",
+      "user": "john",
+      "ip": "10.0.0.5"
+    },
+    {
+      "timestamp": "Jan 15 09:00:00",
+      "user": "alice",
+      "ip": "10.0.0.12"
+    },
+    {
+      "timestamp": "Jan 15 10:00:00",
+      "user": "bob",
+      "ip": "172.16.0.8"
+    },
+    {
+      "timestamp": "Jan 15 10:30:00",
+      "user": "john",
+      "ip": "198.51.100.77"
+    }
+  ],
+  "external_successes": [
+    {
+      "timestamp": "Jan 15 10:30:00",
+      "user": "john",
+      "ip": "198.51.100.77"
+    }
+  ]
+}
