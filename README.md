@@ -1,5 +1,3 @@
-# LogFileAnalyzer
-
 # Log File Analyzer
 
 A simple Python script that analyzes SSH auth logs and detects suspicious activity.
